@@ -1,16 +1,31 @@
 ## Hi there 👋
 
-<!--
-**Gemimah/Gemimah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class SoftwareEngineer:
+
+    def __init__(self):
+        self.name = "Mugisha Gemimah Gloire"
+        self.role = "Full-Stack Developer | Co-founder at PrismShop"
+        self.language_spoken = ["en_US", "rw_RW", "fr_FR"]
+        self.current_projects = [
+            "Sign Language Translator using AI & 3D Avatar",
+            "Smart Agriculture Platform",
+            "PrismShop – Revolutionizing E-commerce in Africa"
+        ]
+
+    def say_hi(self):
+        print(f"👋 Hi, I'm {self.name} — {self.role}.")
+        print("🚀 I'm passionate about building impactful tech that bridges innovation and inclusion.")
+        print("🌍 Languages I speak:", ", ".join(self.language_spoken))
+        print("\n📌 Current Projects:")
+        for project in self.current_projects:
+            print(f"   - {project}")
+        print("\nThanks for stopping by! Feel free to explore my work and reach out for collaboration.")
+
+
+me = SoftwareEngineer()
+me.say_hi()
+
