@@ -6,7 +6,7 @@
 
 class SoftwareEngineer:
 
-    def __init__(self):
+  ##  def __init__(self):
         self.name = "Mugisha Gemimah Gloire"
         self.role = "Full-Stack Developer | Co-founder at PrismShop"
         self.language_spoken = ["en_US", "rw_RW", "fr_FR"]
